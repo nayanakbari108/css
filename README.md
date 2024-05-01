@@ -36,3 +36,12 @@ sudo hping3 -S --flood -V -p 80 google.com
     <button>click me </button>
 </body>
 </html>
+
+
+ping -c 5 www.tcetmumbai.in
+nmap -sT 162.241.71.29 (tcp scan)
+sudo nmap -sX 162.241.71.29 (xmas scan)
+sudo nmap -O 162.241.71.29 (os fingerprinting)
+sudo nmap -sn 162.241.71.29/24 (ping scanning)
+sudo nmap 162.241.71.29 (port scanning)
+
